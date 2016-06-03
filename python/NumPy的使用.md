@@ -1,4 +1,4 @@
-﻿# NumPy
+﻿# NumPy的使用方法
 
 标签（空格分隔）： Python
 
