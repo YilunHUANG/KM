@@ -16,3 +16,5 @@
 `git remote`
 
 `git push`
+
+`git remote show origin`：查看远程仓库的状态
