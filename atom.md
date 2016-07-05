@@ -9,3 +9,5 @@
 使用apm（atom package manager）  
 
 `apm search pkgname`
+
+`apm install pkgname`
