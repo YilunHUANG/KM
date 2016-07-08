@@ -10,22 +10,52 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 还会让你输passphrase，可以直接按enter，但是安全起见自己想一个输一下
 
+##告知Git你的身份
+```
+git config --global user.email "your_email@example.com"
+git config --global user.name "your_name"
+```
+
 ##本地仓库
++ 初始化，状态查看
 
-`git init`
+```
+git init
 
-`git clone`
+git clone
 
-`git status`
+git status
+```
 
-`git add`：开始追踪某个新文件，或将某个改动后的文件加入暂存区
++ 追踪文件，提交
 
-`git commit -m "some comment"`
+```
+git add                          #开始追踪某个新文件，或将某个改动后的文件加入暂存区
 
-`git commit -a -m "some comment"`：不add直接将全部改动提交
+git commit -m "some comment"
+
+git commit -a -m "some comment"  #不add直接将全部改动提交
+```
+
++ 撤销提交
+
+撤销当前最新的提交
+```
+git reset --soft HEAD^
+git reset --mixed HEAD^
+git reset --hard HEAD^
+```
+撤销前几个提交
+```
+git reset --soft/mixed/hard HEAD^
+```
+
+
 
 ##远程仓库
-`git remote`
+`git remote`：查看远程仓库
+
+`git push -u <reponame> <branchname>`
 
 `git push`
 
