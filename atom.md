@@ -8,6 +8,9 @@
 ##安装插件
 使用apm（atom package manager）  
 
-`apm search pkgname`
+`apm search markdown-preview-plus`
 
-`apm install pkgname`
+`apm install markdown-preview-plus`
+
+##Toggle markdown preview
+`Shift + Ctrl + M`
