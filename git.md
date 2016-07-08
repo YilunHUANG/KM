@@ -55,8 +55,8 @@ git reset --soft/mixed/hard HEAD^
 ##远程仓库
 `git remote`：查看远程仓库
 
+`git remote show origin`：查看远程仓库的状态
+
 `git push -u <reponame> <branchname>`
 
 `git push`
-
-`git remote show origin`：查看远程仓库的状态

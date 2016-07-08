@@ -13,7 +13,7 @@
 
 + Sogou Pinyin
 
-##UI相关配置
+##相关配置
 + 使单击launcher上的图标能最小化
 ```
 gsettings set org.compiz.unityshell:/org/compiz/profiles/unity/plugins/unityshell/ launcher-minimize-window true
@@ -30,7 +30,9 @@ gsettings set com.canonical.Unity always-show-menus false
 
 + 启用多桌面（在tweak里面设置）
 
-+ 手势的配置
++ 手势的配置(针对笔记本)
+
++ 打印机的配置
 
 
 ##修复依赖关系
@@ -39,7 +41,7 @@ gsettings set com.canonical.Unity always-show-menus false
 
 使用：
 
-`sudo apt-get -f install` 或者 `sudo apt -f install`
+`sudo apt -f install`
 
 -f：--fix-broken
 

@@ -14,3 +14,6 @@
 
 ##Toggle markdown preview
 `Shift + Ctrl + M`
+
+##禁用插件
+`apm disable markdown-preview`
