@@ -10,6 +10,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 还会让你输passphrase，可以直接按enter，但是安全起见自己想一个输一下
 
+然后把生成的公钥`xxx.pub`添加到GitHub上
+
 ##告知Git你的身份
 ```
 git config --global user.email "your_email@example.com"
